@@ -87,7 +87,7 @@ aside {
 .container {
   float: right;
   padding: 1%;
-  height: 4em;
+  font-size: 4em;
 }
 
 footer {
