@@ -1,9 +1,9 @@
-
-
+* {
+  box-sizing: border-box;
+}
 
 html{
   margin: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 
 header {
   background-color: rgb(193, 224, 88);
-  margin: 1%;
+  margin: 1.5%;
   padding: .5em;  
 }
 
@@ -42,13 +42,14 @@ nav.main-nav li a {
 }
 
 article {
-  width: 75%;
+  width: 74%;
   float: right;
-  height: 35em;
+  height: 36.25em;
+  margin: 0 1% 0 0;
 }
 
 article p {
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 article h2 {
@@ -64,7 +65,7 @@ nav.side-nav {
   float: left;
   height: 20em;
   color: white;
-  margin: 1.5%;
+  margin: 0 1.5% 1.5% 1.5%;
 }
 
 nav.side-nav li {
@@ -80,13 +81,18 @@ aside {
   height: 19em;
   background-color: rgb(87, 190, 224);
   float: left;
-  margin: 1.5%;
+  margin: 0 1.5% 1.5% 1.5%;
+}
+
+.container {
+  float: right;
 }
 
 footer {
   background-color: rgb(174, 176, 177);
-  width: 75%;
+  width: 74%;
   float: right;
   height: 4em;
+  margin-right: 1%;
 }
 
